@@ -1,0 +1,11 @@
+Import the project. Following files will be available Feature file, Step definition file, Runner file, Wrapper File.
+
+Both the scenarios are implemented in the Feature file with different tag names.
+
+To run both the scenarios include the both the tag names in the runner class under tag section
+
+If we want to run only one scenario goto the Feature file and get the respective annotations and keep that anotations in the runner file.
+
+Example to run one testcase :: tags= {"@updatescenario"},
+
+Run the runner file using Junit.
