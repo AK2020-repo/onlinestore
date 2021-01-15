@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="161.441129">
+<testcase classname="Placing an order and updating Firstname of the loggedin Account" name="Update Personal Information (positive)" time="49.561999">
+<system-out><![CDATA[Given User navigate to loginpage............................................passed
+When Enter Username and password............................................passed
+Then User logged in.........................................................passed
+Given Click my personal information.........................................passed
+And Update firstname as fnamechanged........................................passed
+And Enter current password..................................................passed
+When Select Save button to save changes.....................................passed
+Then check whether saved successfully message is getting displayed..........passed
+And Close the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Placing an order and updating Firstname of the loggedin Account" name="Placing an order and verifying the order details" time="111.87913">
+<system-out><![CDATA[Given User navigate to loginpage............................................passed
+When Enter Username and password............................................passed
+Then User logged in.........................................................passed
+Given Click Tshirts option..................................................passed
+And Get the product details of the product added to the cart................passed
+And Click on the item to Add to cart........................................passed
+And Click Proceed to checkout...............................................passed
+And User confirm order......................................................passed
+And get order details from order history....................................passed
+Then Verify the product details are added correctly to the cart.............passed
+And Close the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

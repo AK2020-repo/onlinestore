@@ -1,0 +1,307 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 35392232600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigate to loginpage",
+            "match": {
+              "location": "UpdatepersonalInfo.navigatetologinpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1182698600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Username and password",
+            "match": {
+              "location": "UpdatepersonalInfo.enterusernameandpassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4334510900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logged in",
+            "match": {
+              "location": "UpdatepersonalInfo.userloggedin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Update Personal Information (positive)",
+        "description": "",
+        "id": "placing-an-order-and-updating-firstname-of-the-loggedin-account;update-personal-information-(positive)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2942044200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click my personal information",
+            "match": {
+              "location": "UpdatepersonalInfo.clickmypersonalinformation()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 641573100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Update firstname as fnamechanged",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fnamechanged",
+                  "offset": 20
+                }
+              ],
+              "location": "UpdatepersonalInfo.updatefirstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 535851100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter current password",
+            "match": {
+              "location": "UpdatepersonalInfo.entercurrentpassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3102401100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Select Save button to save changes",
+            "match": {
+              "location": "UpdatepersonalInfo.clicksave()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 213053000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "check whether saved successfully message is getting displayed",
+            "match": {
+              "location": "UpdatepersonalInfo.checksavedsuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1177844100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Close the browser",
+            "match": {
+              "location": "UpdatepersonalInfo.closecurrentBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@updatescenario"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 32980067400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigate to loginpage",
+            "match": {
+              "location": "UpdatepersonalInfo.navigatetologinpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1358121500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Username and password",
+            "match": {
+              "location": "UpdatepersonalInfo.enterusernameandpassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4116787600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logged in",
+            "match": {
+              "location": "UpdatepersonalInfo.userloggedin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Placing an order and verifying the order details",
+        "description": "",
+        "id": "placing-an-order-and-updating-firstname-of-the-loggedin-account;placing-an-order-and-verifying-the-order-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5880303100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click Tshirts option",
+            "match": {
+              "location": "UpdatepersonalInfo.clicktsirtoption()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12368333600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Get the product details of the product added to the cart",
+            "match": {
+              "location": "UpdatepersonalInfo.getproductdetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 729389100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on the item to Add to cart",
+            "match": {
+              "location": "UpdatepersonalInfo.addproducttocart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32005448500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click Proceed to checkout",
+            "match": {
+              "location": "UpdatepersonalInfo.proceedtocheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17792624300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User confirm order",
+            "match": {
+              "location": "UpdatepersonalInfo.userconfirmorder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3020971100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "get order details from order history",
+            "match": {
+              "location": "UpdatepersonalInfo.getorderdetailsfromorderhistory()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183419300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify the product details are added correctly to the cart",
+            "match": {
+              "location": "UpdatepersonalInfo.verifyproductdetails()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1432670700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Close the browser",
+            "match": {
+              "location": "UpdatepersonalInfo.closecurrentBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@placingorderscenario"
+          }
+        ]
+      }
+    ],
+    "name": "Placing an order and updating Firstname of the loggedin Account",
+    "description": "",
+    "id": "placing-an-order-and-updating-firstname-of-the-loggedin-account",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/UpdatePersonalInformation.feature",
+    "tags": []
+  }
+]
